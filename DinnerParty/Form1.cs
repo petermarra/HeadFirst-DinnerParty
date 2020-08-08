@@ -18,8 +18,6 @@ namespace Dinner_Party
         {
             InitializeComponent();
             dinnerParty = new DinnerParty((int)numericUpDown1.Value,healthyBox.Checked,fancyBox.Checked);
- //           dinnerParty.SetHealthyOption(false);
- //           dinnerParty.CalculateCostOfDecorations(true);
             DisplayDinnerPartyCost();
         }
 
